@@ -3,11 +3,11 @@
 ## Acceptance Criteria
 
 ### List of posts
-
+```
 As a reader
 I want to read posts from my favorite blogger
 So that I can learn something
-
+```
 - Published posts should be immediately available to readers
 - See last 10 posts from the author
 - Posts should show first 250 characters
@@ -18,11 +18,11 @@ So that I can learn something
 - Should be able to access new post page from home page
 
 ### Create a post
-
+```
 As an author
 I want to create a post
 So that I can share my knowledge with the world
-
+```
 - New post page should allow me to enter post title
 - New post page should allow me to enter post body
 - New post page should allow me to enter author name
@@ -30,11 +30,11 @@ So that I can share my knowledge with the world
 - Should be able to access home page from new post page
 
 ### Read entire post
-
+```
 As a reader
 I want to read an entire post
 So that I can get all the details
-
+```
 - Should be able to click post title from home page to get to entire post
 - Should show entire posted article
 - Should show the author's name
@@ -43,11 +43,11 @@ So that I can get all the details
 - Should have a link back to the home page
 
 ### Search
-
+```
 As a reader
 I want to search for posts by title
 So that I can find specific information
-
+```
 - Search box should available on the home page
 - Search for any substring in the title
 - Should order results by published date
@@ -58,11 +58,11 @@ So that I can find specific information
 - Results should show maximum of 10 
 
 ### Delete a post
-
+```
 As an author
 I want to delete posts
 So that I can hide my stupidity
-
+```
 - Delete link should be available on entire post page
 - Delete link should pop confirmation alert
 - Canceling from alert should not delete post
