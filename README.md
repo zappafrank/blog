@@ -9,12 +9,12 @@ I want to read posts from my favorite blogger
 So that I can learn something
 ```
 - Published posts should be immediately available to readers
-- See last 10 posts from the author
-- Posts should show first 250 characters
+- ~~See last 10 posts from the author~~
+- ~~Posts should show first 250 characters~~
 - Posts should have a title
-- Posts should be ordered by date
+- ~~Posts should be ordered by date~~
 - Posts should show author name
-- Posts should show published date
+- ~~Posts should show published date~~
 - Should be able to access new post page from home page
 
 ### Create a post
@@ -38,24 +38,24 @@ So that I can get all the details
 - Should be able to click post title from home page to get to entire post
 - Should show entire posted article
 - Should show the author's name
-- Should show the published date
+- ~~Should show the published date~~
 - Should show the title
 - Should have a link back to the home page
 
-### Search
+### ~~Search~~
 ```
 As a reader
 I want to search for posts by title
 So that I can find specific information
 ```
-- Search box should available on the home page
-- Search for any substring in the title
-- Should order results by published date
-- Results should show post title, author, date
-- Results should show first 250 characters of post
-- Title should take me to the entire post from the results page
-- Results with no posts should show friendly message
-- Results should show maximum of 10 
+- ~~Search box should available on the home page~~
+- ~~Search for any substring in the title~~
+- ~~Should order results by published date~~
+- ~~Results should show post title, author, date~~
+- ~~Results should show first 250 characters of post~~
+- ~~Title should take me to the entire post from the results page~~
+- ~~Results with no posts should show friendly message~~
+- ~~Results should show maximum of 10~~
 
 ### Delete a post
 ```
@@ -64,11 +64,11 @@ I want to delete posts
 So that I can hide my stupidity
 ```
 - Delete link should be available on entire post page
-- Delete link should pop confirmation alert
-- Canceling from alert should not delete post
-- Accepting from alert should delete post
+- ~~Delete link should pop confirmation alert~~
+- ~~Canceling from alert should not delete post~~
+- ~~Accepting from alert should delete post~~
 - Deleted posts do not show in home page
-- Deleted posts do not show in search results
+- ~~Deleted posts do not show in search results~~
 
 ## Git
 
