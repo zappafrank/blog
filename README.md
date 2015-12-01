@@ -36,7 +36,6 @@ So that I can get all the details
 - Should show the author's name
 - Should show the title
 - Should have a link back to the home page
-- 
 
 ### Comment on a post
 ```
