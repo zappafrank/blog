@@ -1,52 +1,39 @@
 # ATDD Blog Project
 
-## Acceptance Criteria
+```
+As a blogger
+I want to share my thoughts with the world
+so that everyone knows how brilliant I am
+```
+  - blog post consists of title, author and post content
+	- all fields are required
+	- should not be able to create 2 posts with the same title
 
-### List of posts
 ```
 As a reader
-I want to read posts from my favorite blogger
-So that I can learn something
+I want to see the 10 most recent posts from my favorite blogger
+so that  I can keep up with their brilliance
 ```
-- Published posts should be immediately available to readers
-- Posts should have a title
-- Posts should show author name
-- Should see posts ordered by date, most recent at the top
+	- posts should be ordered with the newest at the top
+	- only want the previous 10
+	- want to see the title, a little of the post body, the name of the author, and the post date
 
-### Create a post
-```
-As an author
-I want to create a post
-So that I can share my knowledge with the world
-```
-- New post page should allow me to enter post title
-- New post page should allow me to enter post body
-- New post page should allow me to enter author name
-- Should not be able to add duplicate titles
-- Should be able to access home page from new post page
-
-### Read entire post
 ```
 As a reader
-I want to read an entire post
-So that I can get all the details
+I want to read a full post
+so that I have all of the details and can impress my neighbors
 ```
-- Should be able to click post title from home page to get to entire post
-- Should show entire posted article
-- Should show the author's name
-- Should show the title
-- Should have a link back to the home page
+	- accessible from the list of posts
+	- should be able to read the whole post body
 
-### Comment on a post
 ```
 As a reader
-I want to comment on a post
-So that I can let the world know I disagree with the author
+I want to leave comments on a blog post
+so that everyone can see that I am as brilliant as the blogger
 ```
-- Should be able to add multiple comments
-- Should see all of the comments that have already been left
-- Should show the name of the comment author
-- Comments should be ordered by date, oldest at the top
+	- should be able to leave many comments
+	- comment is some text, and name of the person leaving the comment
+	- should be able to see all comments, ordered with the oldest comment at the top
 
 ## Git
 
