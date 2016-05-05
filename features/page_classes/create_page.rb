@@ -12,7 +12,7 @@ class CreatePage
   button(:submit)
   button(:reset)
 
-  def enter_information
+  def create_valid_blog
     populate_page_with data_for :create
     self.submit
   end

@@ -4,7 +4,8 @@ require 'data_magic'
 include PageObject::PageFactory
 
 When(/^I create a blog post$/) do
-  visit_page(CreatePage).enter_information
+  visit_page(IndexPage).blog_posts
+  on_page(CreatePage).create_valid_blog
 end
 
 
