@@ -1,5 +1,5 @@
 create:
-  title: catch_phrase
-  author: full_name
-  date: today(format = '%D')
-  post: paragraphs(paragraph_count = 4)
+  title: ~catch_phrase
+  author: ~full_name
+  date: ~today(format = '%D')
+  post: ~paragraphs(paragraph_count = 4)

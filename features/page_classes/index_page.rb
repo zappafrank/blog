@@ -7,10 +7,6 @@ class IndexPage
 
   page_url "localhost:4567/homepage"
 
-  button(:submit, name: 'Create')
-
-  def blog_posts
-    self.Create
-  end
+  button(:create, name: 'Create')
 
 end
