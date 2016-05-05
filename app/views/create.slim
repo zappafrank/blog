@@ -1,0 +1,20 @@
+html
+  head
+    title Create A Blog
+  body
+    form method="post" action="savepost"
+      h1 New Post
+      fieldset
+        br Title:
+        input type="text" name="Title" id="title"
+        br Author:
+        input type="text" name="Author" id="author"
+        br Date:
+        input type="date" name="Date" id="date"
+        br
+        br Post:
+        textarea name="Post" id="post" rows="4" cols="40"
+        br
+        input type="submit" value="Submit Post"
+        br
+        input type="reset"
