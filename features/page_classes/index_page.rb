@@ -7,6 +7,6 @@ class IndexPage
 
   page_url "localhost:4567/homepage"
 
-  button(:create, name: 'Create')
+  button(:makepost, value: 'New Post')
 
 end

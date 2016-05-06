@@ -12,7 +12,19 @@ get '/create' do
 end
 
 post '/savepost' do
- class Post
-   Post newPost = new.Post(@blog_posts)
- end
+  newPost = Post.new
+  newPost.title = params['title']
+  newPost.title = params['author']
+  newPost.title = params['date']
+  newPost.title = params['post']
+
+  @blog_posts[newPost.title] = newPost
+
+end
+
+class Post
+  attr_accessor :title
+  attr_accessor :author
+  attr_accessor :date
+  attr_accessor :post
 end
