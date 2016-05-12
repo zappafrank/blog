@@ -5,10 +5,10 @@ class PostPage
   include PageObject
   include DataMagic
 
-  page_url "localhost:4567/savepost"
-
-  def saved_posts
-
-  end
+  text_field(:title, name: 'Title')
+  text_field(:author, name: 'Author')
+  text_field(:date, name: 'Date')
+  text_area(:post, name: 'Post')
+  button(:submit)
 
 end

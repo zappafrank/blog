@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'slim'
 
-@blog_posts = {}
+blog_posts = {}
 
 get '/homepage' do
   slim :index
@@ -11,15 +11,19 @@ get '/create' do
   slim :create
 end
 
+get '/yourpost' do
+  slim :yourpost
+end
+
 post '/savepost' do
   newPost = Post.new
   newPost.title = params['title']
-  newPost.title = params['author']
-  newPost.title = params['date']
-  newPost.title = params['post']
+  newPost.author = params['author']
+  newPost.date = params['date']
+  newPost.post = params['post']
 
-  @blog_posts[newPost.title] = newPost
-
+  blog_posts[newPost.title] = newPost
+  slim :yourpost
 end
 
 class Post

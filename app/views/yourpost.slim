@@ -1,0 +1,18 @@
+html
+  head
+    title New Blog Post
+  body
+    form method="post" action="homepage"
+      h1 New Post
+      fieldset
+        br Title:
+        input type="text" name="Title" id="title" readonly=true
+        br Author:
+        input type="text" name="Author" id="author" readonly=true
+        br Date:
+        input type="text" name="Date" id="date" readonly=true
+        br
+        br Post:
+        textarea name="Post" id="post" rows="4" cols="40" readonly=true
+        br
+        input type="submit" value="Home Page"
