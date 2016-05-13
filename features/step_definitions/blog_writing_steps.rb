@@ -5,13 +5,16 @@ include PageObject::PageFactory
 
 When(/^I create a blog post$/) do
   visit_page(IndexPage).makepost
-  on_page(CreatePage).create_valid_blog
+  @create_data = on_page(CreatePage).create_valid_blog
 end
 
 
 Then(/^the blog post contains the submitted content$/) do
-  on_page(PostPage) do
-    expect(@blog_posts.title).not_to eq null
+  on_page(PostPage) do |page|
+    expect(page.title).to eq @create_data["title"]
+    expect(page.author).to eq @create_data["author"]
+    expect(page.date).to eq @create_data["date"]
+    expect(page.post).to eq @create_data["post"]
   end
 end
 
