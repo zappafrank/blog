@@ -9,12 +9,15 @@ task.cucumber_opts = '--format html --out report.html'
 end
 
 Reek::Rake::Task.new do |t|
-  #source_files = '/app'
-  #source_files = '/features'
+  t.source_files = Dir.glob('{app,features}/**/*.rb')
+  t.reek_opts = '--sort-by smelliness -s'
 end
 
 Simplabs::Excellent::Rake::ExcellentTask.new(:excellent) do |t|
   t.html  = 'doc/excellent.html' # optional, if you don't specify html, output will be written to $stdout
-  t.paths = %w(app lib)
+  t.paths = %w(app features)
 end
 
+FlayTask.new do |t|
+  t.dirs = %w(app features)
+end
