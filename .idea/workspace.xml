@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab3d1624-b0ce-4320-9d21-ac1dcd3fc3ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blog.iml" afterPath="$PROJECT_DIR$/.idea/blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/hi.rb" afterPath="$PROJECT_DIR$/app/hi.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.slim" afterPath="$PROJECT_DIR$/app/views/index.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/yourpost.slim" afterPath="$PROJECT_DIR$/app/views/yourpost.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/page_classes/create_page.rb" afterPath="$PROJECT_DIR$/features/page_classes/create_page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="12" column="5" selection-start-line="9" selection-start-column="2" selection-end-line="12" selection-end-column="5" />
+              <caret line="12" column="3" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -91,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog_writing_steps.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog_writing_steps.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/blog_writing_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -538,7 +531,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462486771291</updated>
-      <workItem from="1471528530588" duration="12299000" />
+      <workItem from="1471528530588" duration="12900000" />
     </task>
     <task id="LOCAL-00001" summary="Implements updated Rakefile">
       <created>1463141606414</created>
@@ -583,7 +576,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12299000" />
+    <option name="totallyTimeSpent" value="12900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -994,14 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="5" selection-start-line="9" selection-start-column="2" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/create.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1014,6 +999,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="3" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
