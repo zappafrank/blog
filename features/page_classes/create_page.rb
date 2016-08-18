@@ -1,6 +1,7 @@
 require 'page-object'
 require 'data_magic'
 
+# The CreatePage class is responsible for populating a test post with data
 class CreatePage
   include PageObject
   include DataMagic

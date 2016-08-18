@@ -7,6 +7,11 @@ get '/homepage' do
   slim :index
 end
 
+post '/homepage' do
+  slim :index
+  puts puts
+end
+
 get '/create' do
   slim :create
 end
